@@ -1,0 +1,9 @@
+# Dossiers de compilation et temporaires WinDev
+*.cpl/
+*.wdc.bak
+*.wdw.bak
+*.wde.bak
+*.wdd.bak
+*.bak
+*.pdf
+*.log
