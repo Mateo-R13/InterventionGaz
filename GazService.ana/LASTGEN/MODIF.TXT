@@ -1,1 +1,8 @@
-//MO000-000.TXT ANA00000 TO ANA00000
+//MO000-001.TXT ANA00000 TO ANA00001
+Technicien		NFI		nouvelle table
+Client		NFI		nouvelle table
+Intervention		NFI		nouvelle table
+PhotoIntervention		NFI		nouvelle table
+Contrainte_Client_Intervention		NWL	Client (idClient) et Intervention (IdClient)	Nouvelle liaison entre les tables Client (idClient) et Intervention (IdClient)
+Contrainte_Technicien_Intervention		NWL	Technicien (idTechnicien) et Intervention (IdTechnicien)	Nouvelle liaison entre les tables Technicien (idTechnicien) et Intervention (IdTechnicien)
+Contrainte_Intervention_PhotoIntervention		NWL	Intervention (idIntervention) et PhotoIntervention (IdIntervention)	Nouvelle liaison entre les tables Intervention (idIntervention) et PhotoIntervention (IdIntervention)
