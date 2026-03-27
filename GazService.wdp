@@ -45,6 +45,12 @@ project :
      physical_name : .\FEN_ListeInterventions.wdw
      type : 2
    -
+     name : FEN_Photos
+     identifier : 0x49c6a198299ec46a
+     internal_properties : IQAAACAAAADfJ0fLSZ56iubjHcS/X1ct6XgSzwaAAXg7tgwvouzZ9VR+C9O+e3f3HZW39pWQvXYVwYmLNyEcFBo0
+     physical_name : .\FEN_Photos.wdw
+     type : 2
+   -
      name : FEN_FicheIntervention
      identifier : 0x49c68da51ad6d7ed
      internal_properties : IQAAACAAAADsCKiEms+1ubmcaP+YuOjN9F2LW11dZFeSA3aBQdghGuPh4vQTSLMj9SfYlXSxkklG8rra5nJr5SsF
