@@ -44,6 +44,24 @@ project :
      internal_properties : IQAAACAAAABsiCgEGk81OTkc6H8YOGhNXPRflOXv9okodC2Aqas2oev1snx3wgoeDadYFfQxEsnGcjpaZvLrZauF
      physical_name : .\FEN_ListeInterventions.wdw
      type : 2
+   -
+     name : FEN_FicheClient
+     identifier : 0x49c68519117a751d
+     internal_properties : IQAAACAAAAAIlISQhuuBffVIdOuUlOTM0jxto6OLgpmocXP1UdcqFHV7HMJB4rcnlibciWClpl16rv4GylZX0cdh
+     physical_name : .\FEN_FicheClient.wdw
+     type : 2
+   -
+     name : FEN_ListeClients
+     identifier : 0x49c67f880d7bb482
+     internal_properties : IQAAACAAAACtyW39o7hc0EDFh0YxIcmvn/kk4xqgXdyF3sD+Sf02xO+bIjTZVNw4Dwc5dAsKO/DvG1OxHTsyKmzG
+     physical_name : .\FEN_ListeClients.wdw
+     type : 2
+   -
+     name : FEN_Connexion
+     identifier : 0x49c67d7e08a1bc59
+     internal_properties : IQAAACAAAAA/R+drKX4aKgYDvSRf/7eM/6hsZ8oU0WiZQR/5YUqDt/uvjhjlZOx8HvQXVjXw3Ra1YSlrV8G8tPpU
+     physical_name : .\FEN_Connexion.wdw
+     type : 2
   other_elements : []
   array_of_analysis :
    -
