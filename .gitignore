@@ -1,0 +1,18 @@
+# Fichiers générés WinDev - à ne pas commiter
+*.log
+*.cache
+HstDuree.log
+Exe/
+GABARITS/
+Sauvegarde/
+Themes/
+RAD*.FIC
+RAD*.ndx
+RAD*.mmo
+desktop.ini
+Folder.ico
+*.emf
+*.env
+*.sty
+*.wdy
+*.REP
