@@ -1,3 +1,0 @@
-//MO001-002.TXT ANA00001 TO ANA00002
-Intervention		TAR	201	nouvelle taille enregistrement : 201
-Intervention	statut	CNW	Chaîne$Booléen	la rubrique statut a pour nouveau type Chaîne
