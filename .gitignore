@@ -1,18 +1,16 @@
-# Fichiers générés WinDev - à ne pas commiter
-*.log
+# Fichiers de cache WinDev (régénérés automatiquement)
 *.cache
+
+# Logs WinDev
 HstDuree.log
-Exe/
-GABARITS/
-Sauvegarde/
-Themes/
-RAD*.FIC
-RAD*.ndx
-RAD*.mmo
+*.log
+
+# Fichiers Windows inutiles
 desktop.ini
-Folder.ico
-*.emf
-*.env
-*.sty
-*.wdy
-*.REP
+Thumbs.db
+
+# Dossier d'exécutable (compilé localement)
+Exe/
+
+# Fichier de projet modifié à chaque lancement (évite les conflits)
+*.wdp.lock

@@ -1,0 +1,253 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : FEN_Connexion
+ major_version : 31
+ minor_version : 2
+ type : 2
+ description : ""
+ subtype : 0
+window :
+ name : FEN_Connexion
+ identifier : 0x29de2dc1007339ed
+ internal_properties : IQAAACAAAACxRh3qdlRqsSRLuHbBMRHMBAGY2MDa2vm7+NGfZhhzNZdqEkynkiaXDkLsiTNpmh1X6iSGB5+pIuayz4w/hf6RblGkx32F3dRjQpGm/MiJ2wzE60+iwO1UAlxtlphO+LM1UBbdCwKDL+glM9oJWscXVRmJE3NNzX94aHBMbOh2AfK6iUdrASds3JlRZLN/3TPc5bJ9EgJgnQ8+/q58oioVY+yb6ZfArPH9ZyFz5Qvj8blYncN0zYsiMsxqOKMUp3i2mbOoQ9NyfT/1dY+yRS/xffE2r1OxfuBUAxyFH/JpIQIc9sCHsNwqCgrdLcpRdFpVJuSuFNWAE717PUPz6X2IPaDNYExfQTQL/pdUWjdJktBy8CxSvj7628Vt59vLMSTkibQlhKkcE5tWuGZ9gCSx7s5i0wC8QR/XdcWP47F5F/WgQOKvMcfVPYjMGfBSxZHo1Y1l9S0xSH6JpUf3N7v2IcIEWfo/5yw8ITrMaGSdBRW2jjEQeG3WV7+e6AfRCJgRMqulYKJLbMIN8XetcSXEpc5fF5iBGysN+SnzUlFGJ5LKU4gBGQGmRJOHuc5QkyTAwbuNnAX7oowr1RsGot4yZCmxM89fSsX6Sy3/HlRoC2aek6e32Yb7FefRQxjMAZBmMRvCtaEF65oum7UCPUyN4pJT0wUJOMCHAD7fmpwzagNnUaPy+eAWQ1PQUGYOYvuWj78tV47arqSXt7CGamksd79Gm9Jmym2rAWQD7cLzc95TyQX1pLvDo2tE+CzjtLs=
+ properties :
+  width : 360
+  height : 633
+ controls :
+  -
+    name : BTN_Connexion
+    identifier : 0x29de2dc1007739ed
+    internal_properties : IQAAACAAAACHhdAPOFcBixO/7MdSZsYqkC+OvUmxV5b4uS+vJ44Qq8zzPDFJWJ0QDSLGFbD+hXNSSB/4kRXKF0HBC+V1lFAHlI+IvSo5JhIePo8UmR19Cu4VRIDw85sToy4XTqiDv57Z6vsTZpXKzsN34H1EyGIgZIVI3Bh9+aU7AnikJHL33oR+8PjnCyKDRFiOmr2UqJh4dHAtXkh1JWZxcY+YSjLwFuBr4o7yhDuSf3Cf/OD6fs/RyFsLwsZj5yIHVGMgi9H0k6oMcSfKc9+zgyB+C+kXLKAmlHdNhsmqQqJpUFjJM1cJvp1qZE2aNHGLks5Kghkewa8b9kdb60I8aWxQFsYLEegIfgZAMXAkBwL7LpD5kc5BChMQ5/ylRUGMRO1FRx0nUg0NwzqyOuxNWCMfKO5lDVOz0r/Q1t9YQuZ5Y5WVInsbJGfUQIskUOyjBcbxanAsk2wdhSaSizI59VeQLwiBgmV5zw0bS2sAzbP31IVEA9vNUNc/BalVaRo5bTq+TTiVh8XkDEbhdyCcwtBDLCobtYUrFu9Ahi44Rn68a+5d4rsbIHFEYCiUia/I6r4Byvyj7M44kEgQxPPtjq3gT8kixUyaG7d0YgD/TilCcP3yOoSx3WnaJf8DivcaDoHv7UKT8tPQR5TN7WRaPtvRcFMIbRBAHXQCUdf0AquvvEJcy16spaTfURrl4ZoUCwIyVq9p51YjXfOZVP4fQ7Ihe7SjbM9joCBlCC/attjXzIUwib27RyADyMcg2KwyLJ93sMUUGN7Dw8FIgw1LzLXwQXze44iE
+    properties :
+     x : 119
+     y : 488
+     width : 123
+     height : 32
+     anchor : 5
+     anchor_ratio_pos_x : 500
+     anchor_ratio_size_x : 0
+     accelerator_key : 65535
+     tab_order : 2
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         
+         
+        type : 14
+      -
+        code : |1-
+         // Recherche du technicien avec le login saisi
+         HLitRecherche(Technicien, login, SAI_Login)
+         
+         SI HTrouve(Technicien) ET Technicien.motDePasse = SAI_MotDePasse ALORS
+         	OuvreFenêtreMobile(FEN_ListeInterventions)
+         SINON
+         	Info("Login ou mot de passe incorrect.")
+         FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : LIB_SansNom1
+    identifier : 0x29de2dc1007839ed
+    internal_properties : IQAAACAAAADWa6xfZeIa//U83XJ54Nx7kX8hFmVwU9wpzt3m+nsUECNRcB5U7HhIn0T8AlQ5gFQ3E4IbgBgawkARjFT5hRD0IZ94xzalOMMzxzR2B94hAoot7HPMduIqW9y6AGeZ7sVVsMURdu+kYAg1hsxpFr4Guea5Grnz7/+FUlJOwboV8ozAo2zQ9Ulz/E7aaI5RFfW8PqCHNbjIVpzxz2NL/tiSVjp4cASGnPEykyfeZ/Vp+/3sjlCopcGziq43Jc23tRhfJxv8028YIav7cXJ6VykbdrAaj2/5Pet1G9ZGPu88SeQJJHCUsX7RxdI0YCNUg03T9hbbRwANV+UDS7iBUoUwjVjdjEvXMCvngsPBHe47RrkFAvUZtY6EuMgR93PgsDnlN+nbeKvxx7//p3QT5EEZTrpqYob+RpB/ZfPOlzeCZAk7UZfPwMQmJ9KaOzd4GmxUrtus
+    properties :
+     x : 86
+     y : 143
+     width : 188
+     height : 32
+     caption :
+      fr-FR : GazService
+     anchor : 5
+     anchor_ratio_pos_x : 500
+     anchor_ratio_size_x : 0
+     tab_stop : 0
+     take_focus : 0
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         
+         
+        type : 14
+  -
+    name : SAI_MotDePasse
+    identifier : 0x29de329d05853230
+    internal_properties : IQAAACAAAABCtgyvecA/ltfAcsdsMY24yDOvcuHEsjooZ+9jEa/PhCWd6/JBaLc/v5Fj5Ga8W55OJ2wyqGBCU9O1siMqbIzJunPzBQIKVzE8LN+xgzb0TJy23qj2YhjAfH98t5EqalDCUuxQVd86f7q1W2ydJNdFE+U8ZyZKf3FDuHpgxWbhkpc1bf70JlV6N/FKKMhf45fE7h1ooVe7xQmtb8PAd8jv/3UfVhmxXBe5meOUGSVK/+B0J5rRiW4sKeS5q0FOodgfZqNHg8yyAvWljedJIkh5CwTqvNuEcMD3cQrpli7y+kK3XxzrYczNlDzCMzGA/XvTANlJbSSBln/+rBM90y7NF1l+0JsNT/twVqGKrEIypAODDAXcXajRFMnsq+LHNIc1varTB+tD164Rcd+Iftsw/3+FhzMzH+Q8qOC84s5sdU2Jw6/ToFsJet6RzzNMPXpcLOYGDVBPxSyCtYrCxnA0loYeGdFWHOxy4ZEsfMlcYMU7fhIQjJF/RCyc3Z1CXuWY6ItXUpXoI/4PoBcisRVbcKOZqfdfzQkTe7BCQhCCqLpHG6pwr9vlMrxDY5XHGWZATCnhbpOaaJIMjsw7MR0+BqaXmYJkZ7//M+55n4SeP29vWwvRU1GXdmvefKYWehx0S/eNeTOho8ZkS8tDtXMfegk4T4LFFPMd+bD8yR3sv2ca2cWBbA6OmceXix22H1PmpQXQ/VR1PT/3Aygp+L9bPjyK55oHBf9mYn2+b3ogzSK0UIo3ngwrgJyYgrGPe3+ITCcZzhItndAyT1M7q/ew/Vlhrdq8B+zjQzVK+gCf+DNDxZWVvmZ6CdiYedTubEVpiHs+3G+3K6HXnjU+SR1F4W7LrFyR7twkEQx6lnOwSbk5CKiH+p7YjrPSZ3hcmCgWGW5YMQaEK2F5TY4k/Rq95huHAGt4QmS2fyEpzQ7m/YF79ZjCu/MrHxxZcub9+KnOiTTMaNLSY+AUmo5tGHPfH+0sowCN9CGs0AuYF/5KhPX6mg7X6GWNKDYNqDA8YMwL/YGPvSOaPCFnMdQEawDafLFQJygX1qF6l8cxYQjnE757nKZKvEC/7pbxegogCE41hv8UD9Mp6zuDCnZiM6uRX2837FZj7blPMCsKHBUR8OnVOykjMJvdUq1BN9e8sAzX3Hb4/t4VELlQPu850ayRjHB4RB0z2v/xpLvEjL+FWbI2Z4MOt90tDwODa3LVt7oNqetjRRtQKCbEPxj7QeClsqjtWXJwmdEB8NJlBw4q6veKGZ4eUvtW6lbW8UsGPNOuALNzpLO3WplDA0BJAny/pqk6ycMm8tFjplXK4oQVaD/HcwtuuS2QSYn4VUthXtkNloEpqy7kytL9LBfCwqF4mq8FEK0t59p0c6qg5/uDO1FBz0BGkz8Myi/mPY5Vl4UfauehcI4j8hJ5mY5AJXBJ1fVktzSwTrmBbKdM7TTpHYoTPMIAExJvWvZbPeOiWfoctgDg3jVqc5Bm1Z8dxgU2vtHqC6Vgsf9iT6h9t+hxl9pv6wOpCwPEK089Qbk/HC/RIiTu1OynGkpoF1v6yxeGcqYZpatXyUu/7smM1ksbU5G4Xqa2pZ0Dd0FU7D6Jp+Ma2WJl9htnQh9yL6EizJzSM4sKj/xXlV7XdRdHGEknxYjDLhK4juOYjMG3PpUannMsAJEmGbvOkxjNE6z3x5ir5cubnLSlc+TSkjtAmUUJMCATaVqIzamWE2ZtARz/T4Bvxa9P+CPXOTgg35XJs1tXSC3kN6yLxnG7fo0zocfMExsoyb+eB2iFHjXHmtndGuP/Vl8y129fY83Dl2pNnZs6XPZL4ex60GYz03/RuEBif3h5ixH/LiQs+yVYdB5Fli+DjdafuaTYF9a2EwxsYeKLpa112wwRuJrUv50vVw==
+    properties :
+     x : 26
+     y : 323
+     width : 309
+     height : 63
+     caption :
+      fr-FR : Mot de passe
+     anchor : 1
+     anchor_ratio_size_x : 0
+     data_binding : Technicien.motDePasse
+     accelerator_key : 65535
+     tab_order : 1
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description
+         // Saisie de mot de passe
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+  -
+    name : SAI_Login
+    identifier : 0x29de330b05b3e36a
+    internal_properties : IQAAACAAAACqJQOq4/e2CuZJxw5AMg7fSYS2M1ZuQsXjk2OcrpKdCV73pDRQmkHzDTQCWIlJDxmJfwAscId7jwOK0f4jJUKzITnjqI7X4yId8Cuty+eHkRwlE0Vl5fwkORCYGgG/cucwyHOGrI+ZOvgGMB2RInwh/PDIL+HWgG9kV7pH9qHXMbo6rsyFdWXGzT8piLHqcHKBGckJdRXFPU1JVxdGDXEkEwUTNyI7y2ERTZddD57JXNFmRRjfYCqWgfrGsKQBDo8SZ+mn4DlidTofuBF/e5cQA0uw14RxTPGwNVFSxi30DFyYqvt6lsbQWcZIM0os/+RpydczxowMWoa9SRzQS+j25hbNETke8Z0mW3BlZm+FY+++VS60B1Z4waeBHCONpvi5Yf3OEWndGP1bkyWu35VlC45ig5SHd4oYB2q3PYtOxFm8qUSE0KsVqKAWA4CYfuYSh6gIzOTS6vAyHOCH3/mY42z6WzWUeVqnq3ol77+Vj4QPIwRt8faM3kJesOt9uowptJx3AaXmc0ltnuAkfhqI0Fbae1sjCjz1O61ZRlUXCPpQk1PQnS0zzNHVg+v3ztpC+4jbRCm6l1YLWIQFsBkRy1XXOr8vk3TfcQddPUewBZHiFTRbpcXYQGyjUT4EHSx895FsXl+oQkiGrJQdMjyF18eURba7YvBKnjV+4fOeqcoF77Az8PMv3KmZzeMXlUS7SqQLmcpnXv+9U/qPz0RxJRMgY0N1+gOksR3dw7jEj90cr82rmMwNy7YFvun2kxPi8BVb+U6gqsC60Gff6yHreXH2RynX3PVSYH6dQj6D+yXBzhjhNdjS37vHondMbFgi2PD08U2o+zd3QRMhSv6tZmmL9nCt2aTkPm+JFTrbBiThHwgdeYT+ZFPYEShP7MIYMubTF6uRniLk0EAiEIvdxmykb4hL6DmuYl0YtrNtLJyBLAatM322m345bXdpkmScmO1gkckb7+PPqbBXcG/lRICody9wVoubBl1oN8QE10DajR2CqfuPnRO+OyMaZYHlulRk0enU865QrsD1EDQhH6nGMbkMjhwlPCzA19F1Kds5C1RnWFdngBb6b2vRDohvCuHU+l692sVq4MO32ZYFfAr2EJvK7zJCs9uS1jB3+lvAKj2wJXFixvwJBUEZPXzEUHqZy3OYaYlqJrok7Ib+cns4FqoWN1s2F2/ZMcuxhJCZ0SF+M5hAjco9gLlSymGpbTO0hIfyWXMflZQ9InWOWmbGSaBftBzPvy5mHdNN1/LSKUpFcE0qpuHtMXYMLlhMPaWUx0M9zmtQgSn2SAMIYpcwY+axQI0JnVTnngrbxUQCBYMlQhR0w9kEsoitxgFr+UA0/VYTz0YFSIbTHwUKiqfow+0HXsaTwm9ogEqAyFYtEsmHJMZiczYmghhTSrFSW7lxpDVYH6crh7oW5GouMJTjXdZfF411/CtbFjsaCAejahmCtVDnI9wNs+7CFe/q/4HYq38b+6n4ITsZZOvg3tc0975irguL71yU/rK9oWK8+lhq8eXC3385vufzkCa0vp9m/S+7q2rwn1Rqkk9wP9la5EpCLuHwMQhuVHRaYw6YlPeRPo2fEVY17MesjiNOuNK2vyhBDw9R17y348Sm8O/KPmay6zYwQC3HvrN59++juEn4cVACUpcLb07paonU6h11g3PoOHDzjMt7wD2GLqKdmC/iFGXiJg8LdqP+vaQuPDvNMqYVLOZQjvvfoOUcP1dTS3huIViloCjvRJLYVj6qeA1YGT1wnVGIQSIcZvfF8bXQGk01gc+yhl5gSGp2P6jVpH9Ikla8G0pN74aKZnA5peKdlyslO5X0cmFII2B5fYcefNeyhuRIZo/eowC8usx36idOW6WpyPjyNiySrCYVnlBPUOmB
+    properties :
+     x : 26
+     y : 212
+     width : 309
+     height : 63
+     caption :
+      fr-FR : Login
+     anchor : 1
+     anchor_ratio_size_x : 0
+     data_binding : Technicien.login
+     accelerator_key : 65535
+     tab_order : 0
+    type : 2
+    code_elements :
+     type_code : 3
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description
+         // Champ de saisie pour un texte simple sur une ligne
+         
+        type : 14
+      -
+        type : 276
+        enabled : false
+      -
+        type : 277
+        enabled : false
+      -
+        type : 278
+        enabled : false
+      -
+        type : 338
+        enabled : false
+      -
+        type : 339
+        enabled : false
+ actionbar :
+  name : ACTB_ActionBar
+  identifier : 0x29de2dc1007a39ed
+  internal_properties : IQAAACAAAAC7Ef/+KCsN15MQCPR+y1T3Pcmm0bBV3a3Ut0AE/ZS2DJFwL2oet6AGO3ixDgbVhBkk2/8NB8rkQfnKliqCZoe6FZ30I1z6ZO3lt06wSytXhJ3JjdTYlW3If6ryPgwo0FDu5l9AMgncLF/EcbvjXQJSOCndH5eOkkNDmROCr6vJUnH/bsvlIYenj6oc47rrOoawp/JA0jsB1Xa8rE907yuFSvC2YxuJDZodZY2VOCfhTL/K6wGq+Y8gxXa+JqIkHz+GwyhRRqWyxukg4RmSfQUFlpiYUU27ohM1t2Qfn6LGSN2j0gbvoNCWnwmbgJFZNyQQmTFJUCABiJm9pgRg
+  properties : {}
+  controls : []
+  code_elements :
+   type_code : 125
+   p_codes :
+    -
+      code : |1+
+       
+       
+      type : 18
+    -
+      type : 229
+      enabled : false
+    -
+      type : 239
+      enabled : false
+    -
+      type : 240
+      enabled : false
+    -
+      code : |1+
+       
+       
+      type : 17
+ menu :
+  name : _Menu
+  identifier : 0x29f8144500a4e5ba
+  internal_properties : IQAAACAAAAAepHYZertsbPZ8LYJwA2mOmUxwGMImXXGTc9djqcNBskmLC6eMN/VO3S6IOOviTrgAd/mh2DpAuHc17H21LF9j649h6i/BW4hQoOuJ/ewMxSq5cqo3bELowLX8qv/j5y6gell4JvvqrPUsAF4cjo/4Q47VtlDKfPFCd9wvwg9BwdZ+1HU00bBl8G1L0YX3Q/vWC79GweKcj0OmhNE6+So4t3+1HudRtI5xFxjrtyiBLbHJGVeIqu7vkO9SP5gt0u+q7+ePKc4xDLR8gSG+cLRDmFPGjbE0VDhK6pTNmVat3vDgXhHf+A==
+  properties : {}
+  options : []
+ languages :
+  - fr-FR
+ popup_menus : []
+ message_bar :
+  internal_properties : IQAAACAAAAC4z/hstMRBK8udCH3f0TvOtlYtXu30dtZCDfbksFl+dexaCBCcQF0L5uSiFcmt0geAgnEMiYTV31bSw06pZzgsXLgsbCPpLT30nzaez7KOg7I9tp2XtebBP2eJFNA0PZW0
+ code_elements :
+  type_code : 1
+  p_codes :
+   -
+     code : |1+
+      // Cette fenêtre est un exemple d'interface personnalisable.
+      // Vous pouvez la modifier selon vos besoins.
+      // Les traitements à personnaliser sont identifiés par des "// A faire" que
+      // vous pouvez retrouver en utilisant la recherche ou le volet "Liste des tâches"
+      PROCEDURE MaFenêtre()
+   -
+     code : |1+
+      
+      
+     type : 34
+   -
+     code : |1+
+      
+      
+     type : 234
+   -
+     code : |1+
+      
+      
+     type : 165
+   -
+     code : |1+
+      
+      
+     type : 177
+   -
+     type : 180
+     enabled : false
+   -
+     type : 230
+     enabled : false
+   -
+     code : |1+
+      
+      
+     type : 2
+ code_parameters :
+  internal_properties : IQAAACAAAAA7avUjyHAwpyI4qQ/1c0nfEvsTIKdXdws+35kOH3CH7ARorqwKglGvpFJ5bdfDJH2G8CXrnon+YGlNqrTS6Pf67JtcSitQtQ1t5P9Q3vOf5KjTtk/C3Q==
+  original_name : _11
+resources :
+ string_res :
+  identifier : 0x17ce71f100d441a5
+  internal_properties : IQAAACAAAABl1fYBuo8wUZJn5yS4dKWFDlXbaKgAA+xmz1tRg21wZSkyVDffOvg/zKTmlx1zQKSvRto=
+custom_note :
+ internal_properties : IQAAACAAAAA4zjYLyWv3dktwUyAundgOH3+4/XziLlqiaqgwr4Dmp0Dm3KP264JgDg==
+rad :
+ internal_properties : IQAAACAAAACZM/kb7IvKRWO4ZaUcQrDzKT854FAu0KdYt3OnizA/nBqITcp+
