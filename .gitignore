@@ -1,16 +1,2 @@
-# Fichiers de cache WinDev (régénérés automatiquement)
-*.cache
 
-# Logs WinDev
-HstDuree.log
-*.log
-
-# Fichiers Windows inutiles
-desktop.ini
-Thumbs.db
-
-# Dossier d'exécutable (compilé localement)
-Exe/
-
-# Fichier de projet modifié à chaque lancement (évite les conflits)
-*.wdp.lock
+Svg_VI312004

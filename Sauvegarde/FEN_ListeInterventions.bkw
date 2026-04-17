@@ -97,12 +97,13 @@ window :
      -
        name : IMG_Element
        identifier : 0x29de388814665374
-       internal_properties : IQAAACAAAAD+TkBEUKdvr3x2UeP+0ztNgYVpbD/6VCR1fBDVPPK5IfL0CG75Mw4AMuVDW8y7kMfoe/1YaWY68zHAeIAkaGwp0s5yOZNUDbhDYCAoeqQXHVukVhPGr+pQ0Z3F5DtMdWFabAc1UuB+bXt5LqnV7/N1fY3xPxNFf5ZyCtl34cy2nCUEDdemPSoxdiCkxEYDK0/NPyasR7YAoR+9kPefaWEcoNApRXQct2mz8M1NbhytlyCeEXtQWYNdvqmt9Mt54Ec4c8yeA7LHDltjwqCcBKwlSt4riSo0jwQX299SaAcH8iu0VbYvr/u2MQGeksFVT5Mj9A5ClTNaCQ+gnLCSYyXdvLGQ60BcIHBz51b8SPnNJe0WyOvLnLUELDCGHJtCyzCbmPLJOkSxcSkH86OTDhuFBstNIJEhnad8W2e7bMPUQ+M2YWnhGvlclFtJ2dpa8CdGmnaUrGHDJLp/0Mqu9UfqqvKhYcYqx1q67RkYVauKADP4x3ZgKysJrddWQlsZsPtA/3/Fo/8jiSZf3UO881M+HvxD/sfNHePFpIxFfE6Eq9XhE+XQS0vIhJBAfP+q6aoqtdH/Z195FMJp0bHaCPQxsqsGSnQbsfLVePPHh7X0kDU0bhDqwhp90pg7yTtEdKLSPVqlTM7nEM9lvR4Rsk/H2qG+AltlpruIusRChw1Iy12qz+bNbSbTI19CPXVKcs7ryiVjvcUG3n03qJh2PAoILNkQ9EJK3L+o6A7E/eqn15vIo6BoGJdW
+       internal_properties : IQAAACAAAACAFWaodt9EukGto7k3pNcbhT0qf4upWl76qo6TRZ6ZQ8yPM1BXTg7Gb8DQq4MlNX0xQegiGzKZG3d0x4prjlu8PLZsSEjXw3Ar4QnISTkWy/DH/CIx4u+9vdK1dSFLpc9XBNsRRthiMv7ZyrFnP59RyEY88sUHB3O3EljKDv3dugiqC3Ya21mn9RFU/cOiLBrAzFQI4yPXg+cKmIveoR04SaqJKI86wJXjIvc2vmepkEiOaqQ7PcNF5z/joa7qVU+Td+3tNqJo6kLTyek8CrlH1w+eK2/TJaAHXU3P76JPs6yO827AEKQ8x+4kDTGSFrUT88YKADw6SK3P8PaXBgf1XOMMj1C7uNYiR9/RyFs9V16c/SNJ+E7spRLIXuAEOHgmlbiIZAam9tFH8NV4puWDDkXdlTLktD1dLTBHcZqyMFrDY0KsL+vbZcgdM+AgSsI4DZ2xTyoZZ6EpWZVaikKWtvfHdosb2+e8XhAMsNnz83p1WulpZ0TpyFFfYpSAVcraO82IxZvcI/dWY0pxTI5cSrQ3SzvlGQGWLke7NpeMUHuIaBAQQt4E1h3L9ILfaXTUyl9QtJGaGIIk4bR3mxQP1TmPhSrZOJ4VeL6RNy3SlrA6D8O5LSJPTMlLeTN47a5QxfGqN+YApAMF9A4P4WxhtT4hNPFfZS2xQor7e35kCA+lVS06zcTor1NUVy4OGCjcDF8y/EY1rjGD9f2Wx8A6vTHrnqPwjD2UjrDdqNOEsMaJQ37qoI3F04KUPw==
        properties :
         x : 8
         y : 8
         width : 60
         height : 60
+        data_binding : "Intervention.idIntervention\tPhotoIntervention.IdIntervention.Photo"
         tab_stop : 0
         take_focus : 0
         accelerator_key : 65535
@@ -226,7 +227,7 @@ window :
      -
        name : ATT_Image
        identifier : 0x29de388814625374
-       internal_properties : IQAAACAAAACl9rQZMNiG+MBRAi/iE3uFXXMyCbZjm2Q9uX9yTx09S7EN0yEPaqDsijEUeS/v0/Ar9b4pICqjTI22S1Yjlle99WysjG4w+JbVMtJb2UsVDKTNxeWUPi56n1siU9MFnUvCfv0lRpP7B0o+hMiri9sRs8Sxdko9ihNToFJPZ9mvOLWz
+       internal_properties : IQAAACAAAADoXI2Se3tc/sai5hUr+rbleYSwJacBJgu1T7mrkd8TrEu4OTvqSJEgxMjq+QIVT0xIQBoS5zxeLodMgNZ6XxtFXijdayLCVRPBy2pxTypDZrHokQFil97Wiu/B/CdTd/E9HFwn049PyErn/YkzgAnsWWPYT7KR9lZU1TZMamrdV+RZMRCNMs5h7TK1jSPI6uvbAgrnEb86yae258eoI2afSW1y9YXTU+GAaRh5lHRBk1bcnCQsM9xf
        properties : {}
        type : 3
        content :
@@ -521,7 +522,7 @@ window :
      internal_properties : IQAAACAAAABiYQKfNLvvqRsUiCKoRtbugY4D7VdWNNWGxpaOufW5HytlguZyTwf3IYs1/Vs0gMCEpF8Ihdc9JC7kWR54y3Ze8jnXLNeuERQSg2F5Duf7dohIMyS4mkzxWMVQMx1G4z/e
      code : |1-
       PROCEDURE MaFenêtre()<§rad:1§>
-      <§rad:1§>
+      Info("Nb interventions : " + Intervention.NbEnr())
    -
      internal_properties : IQAAACAAAABiYQKfNLvvqRsUiCKoRtbugY4D7VdWNNWGxpaOufW5HytlguZyTwf3IYs1/Vs0gMCEpF8Ihdc9JC7kWR54y3Ze8jnXLNeuERQSg2F5Duf7dohIMyS4mkzxWMVQMx1G4z/e
      code : |1-

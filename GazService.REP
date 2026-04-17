@@ -3,4 +3,13 @@
 ANALYSISGUID=D	;Analysis GUID
 LOCALIZATION_UTF8=B90041E845DC4F4493631DFD11FD272F	Intervention	E:\Projets WinDev\GazService\Exe\Application iOS\intervention.fic
 LOCALIZATION_UTF8=B90041E845DC4F4493631DFD11FD272F	Intervention	C:\Mes Projets\InterventionGaz\Exe\Application iOS\Intervention.fic
-LOCALIZATION_UTF8=669593EB505B4D93B0166B7B884B8C43	Client	C:\Mes Projets\InterventionGaz\Exe\Application iOS\client.fic
+LOCALIZATION_UTF8=669593EB505B4D93B0166B7B884B8C43	Client	E:\Projets WinDev\InterventionGaz-master\Exe\Application iOS\client.fic
+LOCALIZATION_UTF8=B90041E845DC4F4493631DFD11FD272F	Intervention	E:\Projets WinDev\InterventionGaz-master\Exe\Application iOS\intervention.fic
+LOCALIZATION_UTF8=6BDFD05754CC487F8AED2F5D5D67273D	PhotoIntervention	E:\Projets WinDev\InterventionGaz-master\Exe\Application iOS\photointervention.fic
+LOCALIZATION_UTF8=EB51692AD85440B08862F009727D4E1E	Technicien	E:\Projets WinDev\InterventionGaz-master\Exe\Application iOS\technicien.fic
+LOCALIZATION_UTF8=EB51692AD85440B08862F009727D4E1E	Technicien	C:\Mes Projets\InterventionGaz\Exe\Application iOS\Technicien.fic
+LOCALIZATION_UTF8=669593EB505B4D93B0166B7B884B8C43	Client	C:\Mes Projets\InterventionGaz\Exe\Application iOS\Client.fic
+LOCALIZATION_UTF8=6BDFD05754CC487F8AED2F5D5D67273D	PhotoIntervention	C:\Mes Projets\InterventionGaz\Exe\Application iOS\PhotoIntervention.fic
+LOCALIZATION_UTF8=EB51692AD85440B08862F009727D4E1E	Technicien	C:\Mes Projets\InterventionGaz\Exe\Application Android\technicien.fic
+LOCALIZATION_UTF8=669593EB505B4D93B0166B7B884B8C43	Client	C:\Mes Projets\InterventionGaz\Exe\Application Android\client.fic
+LOCALIZATION_UTF8=B90041E845DC4F4493631DFD11FD272F	Intervention	C:\Mes Projets\InterventionGaz\Exe\Application Android\intervention.fic

@@ -1,0 +1,98 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : PeuplementBDD
+ major_version : 31
+ minor_version : 2
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x19e240680077ff76
+ internal_properties : IQAAACAAAAA/sPJK6oMXQvHe/6UcoDxmu24UStT77XAZeESItN6U1+tormzY
+ code_elements :
+  type_code : 31
+  p_codes :
+   -
+     code : |1-
+      
+     type : 720896
+  procedures :
+   -
+     name : PeuplementBDD
+     procedure_id : 1865129199431281902
+     type_code : 15
+     code : |1-
+      //!
+      //! @brief La procédure présente permet de peupler la base de données,
+      //!elle est appelée lors de la première initialisation de la fenêtre connexion
+      //!
+      
+      procédure PeuplementBDD()
+      // Techniciens
+      Technicien.nom			= "Dupont"
+      Technicien.prenom		= "Jean"
+      Technicien.login		= "jdupont"
+      Technicien.motDePasse	= "1234"
+      Technicien.Ajoute()
+      
+      Technicien.nom			= "Martin"
+      Technicien.prenom		= "Sophie"
+      Technicien.login		= "smartin"
+      Technicien.motDePasse	= "1234"
+      Technicien.Ajoute()
+      
+      // Clients
+      Client.nom			= "Durand Paul"
+      Client.adresse		= "12 rue des Lilas, Perpignan"
+      Client.telephone	= "0612345678"
+      Client.email		= "paul.durand@mail.com"
+      Client.Ajoute()
+      
+      Client.nom			= "Lefebvre Marie"
+      Client.adresse		= "5 avenue Victor Hugo, Perpignan"
+      Client.telephone	= "0698765432"
+      Client.email		= "marie.lefebvre@mail.com"
+      Client.Ajoute()
+      
+      // Interventions
+      Intervention.IdClient			= 1
+      Intervention.IdTechnicien		= 1
+      Intervention.dateIntervention	= "20250415"
+      Intervention.heureIntervention	= "09:00"
+      Intervention.description		= "Dépannage chaudière gaz"
+      Intervention.statut				= "Planifiée"
+      Intervention.compteRendu		= ""
+      Intervention.Ajoute()
+      
+      Intervention.IdClient			= 2
+      Intervention.IdTechnicien		= 1
+      Intervention.dateIntervention	= "20250415"
+      Intervention.heureIntervention	= "14:00"
+      Intervention.description		= "Révision annuelle brûleur"
+      Intervention.statut				= "En cours"
+      Intervention.compteRendu		= "Nettoyage effectué, remplacement joint."
+      Intervention.Ajoute()
+      
+      Intervention.IdClient			= 1
+      Intervention.IdTechnicien		= 2
+      Intervention.dateIntervention	= "20250410"
+      Intervention.heureIntervention	= "10:30"
+      Intervention.description		= "Installation nouveau thermostat"
+      Intervention.statut				= "Terminée"
+      Intervention.compteRendu		= "Thermostat Honeywell T6 installé et paramétré."
+      Intervention.Ajoute()
+      
+      Info("Base peuplée !")
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : IQAAACAAAAAFPuXd7fBX1/SiDTB6sHrfMZ5LqScVEUxNStUfcDtxIwFPEz+iD9Gkb2T8
+  original_name : COL_SansNom1
+resources :
+ string_res :
+  identifier : 0x19e240530075aea6
+  internal_properties : IQAAACAAAABDeCMfozZFpzgqxeIXhYeFdAaPGk00grp/EBDAJmpRaTMRIb1iTRNmLaK6
+custom_note :
+ internal_properties : IQAAACAAAADHMJbkzjYofeIDmEvswFy+SzkIk5HN+Jrst5U0+JApjeCrL9+4Iw==
