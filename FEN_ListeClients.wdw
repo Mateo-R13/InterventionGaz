@@ -27,7 +27,7 @@ window :
      height : 50
      anchor : 8
      accelerator_key : 65535
-     tab_order : 1
+     tab_order : 2
     type : 2
     code_elements :
      type_code : 3
@@ -90,7 +90,7 @@ window :
       fr-FR : Zone répétée
      anchor : 10
      accelerator_key : 65535
-     tab_order : 2
+     tab_order : 3
     style :
      scrollbar : {}
     controls :
@@ -104,7 +104,7 @@ window :
         width : 213
         height : 24
         caption :
-         fr-FR : Email
+         fr-FR : paul.durand@mail.com
         data_binding : Client.email
         tab_stop : 0
         take_focus : 0
@@ -159,7 +159,7 @@ window :
         width : 213
         height : 24
         caption :
-         fr-FR : nom
+         fr-FR : Durand Paul
         data_binding : Client.nom
         tab_stop : 0
         take_focus : 0
@@ -344,7 +344,7 @@ window :
      height : 32
      anchor : 4
      accelerator_key : 65535
-     tab_order : 0
+     tab_order : 1
     type : 4
     code_elements :
      type_code : 4
@@ -366,6 +366,35 @@ window :
          	fin<§rad:1§>
          FIN<§rad:1§>
          <§rad:1§>
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Interventions
+    identifier : 0x29e2a91306d4ea20
+    internal_properties : IQAAACAAAADSpUO4BTrj4Oy4hnSpxMxRTR4NgS5g8dzljsQx/lG3Nb4w7RlQCh0IW+sP5DCHXBAm9FcT8+ZgTJV4lkm6+3AdIGeCXbDuMEspp9i/yjx2KMnRXKeDRGDW9BqB54BxemhKB114NrsI4hUSRymUBByMkO5neGjm2G0L599q1FeGCGmft2S1j69J+/+cw3ImFiP+mlQtDqRIPKCAqpCubxiBQ+LTQaPcMc6dW381zqs0Mr1s3yUX4ALaArXPcJLrjLq0213GySg5auX0jtskWQqlEIYBeD/vG8fr+HhB9VpJ7NQT0jnnwrlil0owQiyf8cy2t2/FtXReYeYoa7kbmk3Ib+oQ/WWVN7vP90hcktBgIIio5eiVOJq+/G+3KXtiqrdp5Zp7ZLxK5NDr5ZsMYnUpUHeJxH8mPQ+BHoL6E9rJ6/xHRyxWOIBynfbNil2yDjrjHHm2OvzCLNhdwIQyboKlVeNbFbwzh7n/gUpioxxhqa2NXB2BMslMtnjvD1142ih+2YLBIu10lwRJWssR3vVGmAvQTTYwMJC6vPf36mgoXylybfhvBg1b7MHQYJ+8BKpJccqrP9BBj5FkAaUp/9upIT1wI8NDmFN9CWxKt2j/2NiOAQFFVQGohCN2cwCFVcQGLC598VDt/MkpgQsQvqltMeSmWZ7nfFRfs8xNnvDlagt9eWac7RJAnuu3nwkOntOU0kVhaKHyJUkoB9eiv1ZXRXWnhyBEl31Eo3C/4erVNqm6gi6CUDYk8oCjHFO1Bf4H9917KiuxYstlZRtOBJoG2LS5ep89tJ1m8sVoEXQ4vDh6vWCU05POKY4Lr+NzQ9FTS8MDICi/yq+DwqIKQI9emJ81MaHFKbNAMIO+Z+YFxezhCbxzLqk=
+    properties :
+     x : 23
+     y : 15
+     width : 115
+     height : 32
+     accelerator_key : 65535
+     tab_order : 0
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description
+         // Bouton simple
+        type : 14
+      -
+        code : |1-
+         // Clic bouton "Clients"
+         FEN_ListeInterventions.OuvreFenêtreMobile()
         type : 18
       -
         type : 161

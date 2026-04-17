@@ -27,7 +27,7 @@ window :
      height : 50
      anchor : 8
      accelerator_key : 65535
-     tab_order : 1
+     tab_order : 2
     type : 2
     code_elements :
      type_code : 3
@@ -90,14 +90,14 @@ window :
       fr-FR : Zone répétée
      anchor : 10
      accelerator_key : 65535
-     tab_order : 2
+     tab_order : 3
     style :
      scrollbar : {}
     controls :
      -
        name : IMG_Element
        identifier : 0x29de388814665374
-       internal_properties : IQAAACAAAACAFWaodt9EukGto7k3pNcbhT0qf4upWl76qo6TRZ6ZQ8yPM1BXTg7Gb8DQq4MlNX0xQegiGzKZG3d0x4prjlu8PLZsSEjXw3Ar4QnISTkWy/DH/CIx4u+9vdK1dSFLpc9XBNsRRthiMv7ZyrFnP59RyEY88sUHB3O3EljKDv3dugiqC3Ya21mn9RFU/cOiLBrAzFQI4yPXg+cKmIveoR04SaqJKI86wJXjIvc2vmepkEiOaqQ7PcNF5z/joa7qVU+Td+3tNqJo6kLTyek8CrlH1w+eK2/TJaAHXU3P76JPs6yO827AEKQ8x+4kDTGSFrUT88YKADw6SK3P8PaXBgf1XOMMj1C7uNYiR9/RyFs9V16c/SNJ+E7spRLIXuAEOHgmlbiIZAam9tFH8NV4puWDDkXdlTLktD1dLTBHcZqyMFrDY0KsL+vbZcgdM+AgSsI4DZ2xTyoZZ6EpWZVaikKWtvfHdosb2+e8XhAMsNnz83p1WulpZ0TpyFFfYpSAVcraO82IxZvcI/dWY0pxTI5cSrQ3SzvlGQGWLke7NpeMUHuIaBAQQt4E1h3L9ILfaXTUyl9QtJGaGIIk4bR3mxQP1TmPhSrZOJ4VeL6RNy3SlrA6D8O5LSJPTMlLeTN47a5QxfGqN+YApAMF9A4P4WxhtT4hNPFfZS2xQor7e35kCA+lVS06zcTor1NUVy4OGCjcDF8y/EY1rjGD9f2Wx8A6vTHrnqPwjD2UjrDdqNOEsMaJQ37qoI3F04KUPw==
+       internal_properties : IQAAACAAAAD9I6bQhnulM7qHXGDkExM9Y4AhmKmK+kpxGF7vbz0Sshe15KYfd+7z174Sz+hbN0SKWyCYoRc+m8/it301FIzjSOqWvlbPn2xJfRxIkQ9LD4RDBl6n4X0HX/HxXaVpabWkSj+dqqvO/mSV+q/58wgk9bpKNNOytfmLlPrKOp0GSQH2uTgagq9dfWO2ridMmvZAdnDSwU6QB2+0LEn+KZhhohRZSIHHLO2rwEcSmNkyH9vwSkwFDO+Na2FXhdKI4KwAAaIx8n38qiBfOcXs3AJeOFVuvcOqN56H0w/JHfiwXkM0K8DIi9DErZ64mWFKuVNIdZJObJ2aIAFFtJAT7FJ6NQPmQTfaJTMjYz9ut5GoHtMh44ADQZI35JAsFMGISOGRD1cnsifdf/h+xdtePYrmgqO5ilwBW5N2iJVhifya0V9eyC/G2cCdIaLlITFc4DMhlEzYWd/OhGj/fqD+2nhZKmMxzso2XjBmUZq8GvWGsNaFMnNhvSDfZ0zMoONaTiJd9byrKYwRJbqOJ2OlFLu1oGLY6A3UxD8ZwokwU/MBvw1w/9ApRb80/ezOmLwAIrF7VowEshyW/M4MpCV0+XmUA7ZM2VIdXXNS6meQAHpXJM0gd813/pltgBP2Fz56nNp9zSLsRlTWkKuLRkTn7HNCpt8UIdhFgrSPLchzmOPM5IvW8EZ+iqv4PEtI9R3B5Py1PqnSr26o410H4Pc4h/IQId8IDjioPAefNM5BmzkK0Y/LAPH39sJ/8H/uNmX29ow1SLhA+pE=
        properties :
         x : 8
         y : 8
@@ -154,7 +154,7 @@ window :
         width : 213
         height : 24
         caption :
-         fr-FR : Statut
+         fr-FR : Planifiée
         data_binding : Intervention.statut
         tab_stop : 0
         take_focus : 0
@@ -209,7 +209,7 @@ window :
         width : 213
         height : 24
         caption :
-         fr-FR : Description
+         fr-FR : Dépannage chaudière gaz
         data_binding : Intervention.description
         tab_stop : 0
         take_focus : 0
@@ -394,7 +394,7 @@ window :
      height : 32
      anchor : 4
      accelerator_key : 65535
-     tab_order : 0
+     tab_order : 1
     type : 4
     code_elements :
      type_code : 4
@@ -415,6 +415,35 @@ window :
          		ZR_Element.Affiche()
          	fin
          FIN
+        type : 18
+      -
+        type : 161
+        enabled : false
+  -
+    name : BTN_Clients
+    identifier : 0x29e2a873064a777b
+    internal_properties : IQAAACAAAACgOyI71UuXJsQP8rz5XeT5UOnDb29HwrEa2oet8TctnTjIxmA5lsRDfyezYmfIIyqWNM4mNI12f/9SsFFMq0Y6WhGXMreWXoZVR9i6H8bgbnXy+D8imwraN7WEoShOwBQheuZGfgo0eJYn7h0uVudcFYMg62P8+VivNSnkKRjZsQbk3415Wbly3a3KV+ex2fEBtJcS7M4KwOuzeI/+AnY1EPVx1cRq4Ke5yTuE5FLBdSbaQzx6+wtG7Sxe0xk450mmOEbRfIX/gm1Dr3VMWBsFpWs68MoeoiGGrfSfSs+SyxuG+mz6fZ/fb9JKBHdmqo1cWsAzVX53VhzzcCLV0LteeQXR7gUM3Ay6Ck10XPfY+EhtHsSR2S89PTmfhz1vSdk6ZDvdZkvBet38P09ykYEkrsRa9jdOWsyzVpPt5K2YGaaiOKXazHQgHE3ioqZ9rZyjEnwMtYL/kkPUMDMHh9FjnhT7uuyhbgrIrXZgZ1fQBXwylnTmAfECfwuejcSL09dnWvom/XvoHLo80Ytp9IDgOsLUlMVsBX9srXKnV/al1hxViDX+gRhDwmcpburo3dzkxa9HyanOVo3Mw2oOpcJf2uq9dkT/Wf2tnf+9cjEpJHRvOqCbiUodYFYharSfU2oYvcFTp0Wcz2LTYB2mcwCWMP4jw18zQozHvjLpZKzhJhSnNDGHbSdsLXz6s9mo2jlxTeCxgQlpY+x6Ql8bRL3MApfhKVYiCBB5xmgraSsi5uhGe67NlFzXBkDIyND87hAVz1uc9Awmx1l0Estt6N0wM9tb7D8BgF/0ES4NfWgxdjxCVDSLUbKFgZcS5+dNIGqVOMjgwLFwVrW2Rlaxvk3+5B+yk1uwkyfoY/fOjD8wT6QSzi4whzHXnMN6+HpPuJ20jp3G/MNCQzQqhnFRGAJvDRnAQVWq+HHjDMlkTlxQE5uNEAQCniTWvgBmVnLZioEnTpczBw==
+    properties :
+     x : 23
+     y : 15
+     width : 115
+     height : 32
+     accelerator_key : 65535
+     tab_order : 0
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description
+         // Bouton simple
+        type : 14
+      -
+        code : |1-
+         // Clic bouton "Clients"
+         FEN_ListeClients.OuvreFenêtreMobile()
         type : 18
       -
         type : 161
@@ -522,7 +551,6 @@ window :
      internal_properties : IQAAACAAAABiYQKfNLvvqRsUiCKoRtbugY4D7VdWNNWGxpaOufW5HytlguZyTwf3IYs1/Vs0gMCEpF8Ihdc9JC7kWR54y3Ze8jnXLNeuERQSg2F5Duf7dohIMyS4mkzxWMVQMx1G4z/e
      code : |1-
       PROCEDURE MaFenêtre()<§rad:1§>
-      Info("Nb interventions : " + Intervention.NbEnr())
    -
      internal_properties : IQAAACAAAABiYQKfNLvvqRsUiCKoRtbugY4D7VdWNNWGxpaOufW5HytlguZyTwf3IYs1/Vs0gMCEpF8Ihdc9JC7kWR54y3Ze8jnXLNeuERQSg2F5Duf7dohIMyS4mkzxWMVQMx1G4z/e
      code : |1-
